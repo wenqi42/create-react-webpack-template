@@ -1,0 +1,10 @@
+{
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "quotes": "double",
+    "bracketSpacing": false,
+    "arrowParens": "avoid",
+    "objectWrap": "collapse"
+}

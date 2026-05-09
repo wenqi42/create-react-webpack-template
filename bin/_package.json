@@ -1,0 +1,37 @@
+{
+    "name": "__replace__placeholder__name__",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --mode development",
+        "build": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "module": "src/index.ts",
+    "type": "module",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.29.0",
+        "@babel/preset-env": "^7.29.0",
+        "@babel/preset-react": "^7.28.5",
+        "@babel/preset-typescript": "^7.28.5",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "babel-loader": "^10.1.1",
+        "css-loader": "^7.1.4",
+        "html-webpack-plugin": "^5.6.6",
+        "sass-loader": "^16.0.7",
+        "ts-loader": "^9.5.7",
+        "typescript": "^6.0.2",
+        "webpack": "^5.105.4",
+        "webpack-cli": "^7.0.2",
+        "webpack-dev-server": "^5.2.3"
+    }
+}

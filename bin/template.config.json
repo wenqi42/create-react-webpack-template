@@ -1,0 +1,48 @@
+{
+    "includes": [
+        ".gitignore",
+        ".npmignore",
+        "babel.config.js",
+        "package.json",
+        "public",
+        "tsconfig.json",
+        "webpack.config.js"
+    ],
+    "packageMerge": {
+        "eslint": {
+            "files": [
+                ".eslintignore",
+                "eslint.config.ts"
+            ],
+            "scripts": {
+                "lint": "eslint ."
+            },
+            "devDependencies": {
+                "@eslint/js": "^9.7.0",
+                "eslint": "^9.7.0",
+                "eslint-plugin-react": "^7.37.5",
+                "globals": "^17.4.0",
+                "typescript-eslint": "^8.58.0"
+            }
+        },
+        "prettier": {
+            "files": [
+                ".prettierignore",
+                ".prettierrc"
+            ],
+            "scripts": {
+                "format": "prettier . --write",
+                "format:check": "prettier . --check"
+            },
+            "devDependencies": {
+                "prettier": "3.8.1"
+            }
+        },
+        "react-router": {
+            "dependencies": {
+                "react-router": "^7.14.0",
+                "react-router-dom": "^7.14.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // 基础配置
+    "target": "ES6", // 编译目标 JS 版本
+    "lib": ["DOM", "ESNext"], // 包含的库文件
+    "jsx": "react-jsx",
+    "noImplicitAny": null, // 显式标注 any 类型
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "allowArbitraryExtensions": true,
+    "noEmit": false,
+    "strictNullChecks": true, // 严格空值检查 [4]
+    "checkJs": true,
+    // 模块解析
+    "esModuleInterop": true,
+    "typeRoots": ["./src/types"],
+    "rootDir": ".",
+    "paths": {
+      // 路径映射，例如设置 @/ 为 src/
+      "@/*": ["./src/*"]
+    },
+    // 其它
+    "outDir": "./dist", // 编译输出目录
+    "sourceMap": true, // 生成 source map 文件
+    "skipLibCheck": true // 跳过所有声明文件的类型检查
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "dist", "build", "node_modules/**/*", "babel.config.js"], // 不需要编译的文件
+  "include": ["src/**/*", "template/**/*", "bin/**/*"] // 需要编译的文件
+}
