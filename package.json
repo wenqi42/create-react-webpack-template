@@ -1,5 +1,5 @@
 {
-  "name": "@wenqi/creat-react-template-webpack",
+  "name": "creat-react-template-webpack",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
